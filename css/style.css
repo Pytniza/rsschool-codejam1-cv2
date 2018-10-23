@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+* a {
+    text-decoration: none;
+}
+
+body {
+    color: #000;
+    background: #6F6F6F;
+}
+
+main, header{
+    width: 1024px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+main {
+    background-color: #fff;
+    padding-top: 50px;
+}
+
+
+header {
+    background-color: #993365;
+    font-size: 30px;
+    margin-top: 20px;
+}
+header a {
+    color: #fff;
+    font-size: 25pt;
+    padding: 0 40px;
+}
+
+header a:hover {
+    color: #6ca1b8;
+}
+
+nav li {
+    display: inline-block;
+
+}
+
+nav ul {
+    text-align: center;
+}
+ 
+header span{
+    background-color: #fff;
+    color: #000;
+    font-size: 27pt;
+    padding: 1px 780px 0px 100px;
+}
+
+section {
+    font-size: 16pt;
+    padding: 30px 100px 0 100px;
+    text-indent: 1.5em 
+}
+
+section hr {
+    border: #993365 solid 3px;
+    margin: 20px auto;
+}
+
+h3 {
+    font-size: 20pt;
+}
+
+.Contacts {
+    float: right;
+    margin: 30px 50px 0 0;
+}
+
+.Contacts img {
+    float: right;
+    border-radius: 125px;
+    border: #fff solid 5px;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+}
+
+.Contacts li{
+    color: #6F6F6F;
+}
+
+.Contacts li {
+    list-style-type: none; /* Убираем маркеры у списка */
+}
+.Contacts li:before {
+    content: " "; /* Добавляем в качестве маркера символ */
+}
+
+.Contacts a {
+    color: #6F6F6F;
+}
+
+.Contacts a:hover {
+    background: #000;
+    color: #fff;
+}
+
+.education li {
+ list-style-type: none; /* Убираем маркеры у списка */
+}
+.education li:before {
+ content: "@ "; /* Добавляем в качестве маркера символ */
+}
